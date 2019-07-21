@@ -12,6 +12,7 @@
 - Create a copy of ``.env.example``:  
   `cp .env.example .env`
 - Fill ``.env`` file with the necessary variables.
+- `pipenv shell`
 - Run the migrations:  
   `./manage.py migrate`
 
