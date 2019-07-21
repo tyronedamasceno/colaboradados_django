@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+django-extensions = "*"
+isort = "*"
+pre-commit = "*"
+prospector = "*"
+
+[packages]
+django = "*"
+python-decouple = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+django-model-utils = "*"
+ipython = "*"
+
+[requires]
+python_version = "3.7"
